@@ -1,4 +1,4 @@
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 import ScoreCircle from './scoreCircle'
 
 export default function ResumeCard({resume}: {resume: Resume}) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { usePuterStore } from "~/lib/puter";
 import { useEffect } from "react";
-import { useLocation, useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export const meta = () => [
   { title: "Resumind | Auth" },
