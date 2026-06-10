@@ -50,7 +50,7 @@ export default function resume() {
     }, [id]); 
 
   return (
-    <main className='!pt-0'>
+    <main className='pt-0!'>
         <nav className='resume-nav'>
             <Link to="/" className="back-button">
                 <img src="/icons/back.svg" alt="logo" className='w-2.5 h-2.5' />
@@ -58,7 +58,7 @@ export default function resume() {
             </Link>
         </nav>
         <div className='flex flex-row w-full max-lg:flex-col-reverse'>
-            <section className="feedback-section bg-[url('/images/bg-small.svg')] bg-cover h-[100vh] sticky top-0 itmes-center justify-center">
+            <section className="feedback-section bg-[url('/images/bg-small.svg')] bg-cover h-screen sticky top-0 itmes-center justify-center">
                 {imageUrl && resumeUrl && (
                     <div className="flex justify-center items-center min-h-screen">
                         <div className='animate-in fade-in duration-100 gradient-border max-sm:m-0 h-[90%] max-w-xl:h-fit w-fit'>
@@ -76,7 +76,7 @@ export default function resume() {
             </section>
 
             <section className='feedback-section'>
-                <h2 className='text-4xl !text-black font-bold'>Resume Review</h2>
+                <h2 className='text-4xl text-black! font-bold'>Resume Review</h2>
                 {feedback ? (
                     <div className='flex flex-col gap-8 animate-in duration-1000'>
                         <Summary feedback={feedback} />

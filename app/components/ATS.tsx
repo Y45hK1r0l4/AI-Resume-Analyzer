@@ -10,12 +10,12 @@ const ATS = ({
   return (
     <div
       className={cn(
-        "rounded-2xl shadow-md w-full bg-gradient-to-b to-light-white p-8 flex flex-col gap-4",
+        "rounded-2xl shadow-md w-full bg-linear-to-b to-light-white p-8 flex flex-col gap-4",
         score > 69
           ? "from-green-100"
           : score > 49
-          ? "from-yellow-100"
-          : "from-red-100"
+            ? "from-yellow-100"
+            : "from-red-100",
       )}
     >
       <div className="flex flex-row gap-4 items-center">
@@ -24,8 +24,8 @@ const ATS = ({
             score > 69
               ? "/icons/ats-good.svg"
               : score > 49
-              ? "/icons/ats-warning.svg"
-              : "/icons/ats-bad.svg"
+                ? "/icons/ats-warning.svg"
+                : "/icons/ats-bad.svg"
           }
           alt="ATS"
           className="w-10 h-10"
