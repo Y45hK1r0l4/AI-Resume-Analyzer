@@ -1,5 +1,3 @@
-<img width="1917" height="978" alt="image" src="https://github.com/user-attachments/assets/4523a034-2bc5-4614-b158-5ea04a862aa8" /># AI Resume Analyzer
-
 An AI-powered Resume Analyzer built with **React**, **TypeScript**, **React Router v7**, and **Puter.js**. The application helps users analyze their resumes against job descriptions using AI-generated insights, ATS scoring, and personalized feedback to improve their chances of landing interviews.
 
 ## 🌐 Live Demo
