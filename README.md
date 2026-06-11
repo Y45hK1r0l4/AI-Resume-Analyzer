@@ -2,7 +2,7 @@ An AI-powered Resume Analyzer built with **React**, **TypeScript**, **React Rout
 
 ## 🌐 Live Demo
 
-🔗 **Website:** https://ai-resume-analyzer-87xw-lqqwjg.puter.site/
+🔗 **Website:** https://ai-resume-analyzer-pf1t.onrender.com
 
 ## ✨ Features
 
@@ -95,9 +95,9 @@ Feel free to fork the repository and enhance it further!
 
 ## 👨‍💻 Author
 
-**Yash**
+**Yash Kirola**
 
 * GitHub: https://github.com/Y45hK1r0l4
-* Live Demo: https://ai-resume-analyzer-87xw-lqqwjg.puter.site/
+* Live Demo: https://ai-resume-analyzer-pf1t.onrender.com
 
 ---
