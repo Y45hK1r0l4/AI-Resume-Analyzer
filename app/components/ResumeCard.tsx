@@ -23,7 +23,7 @@ export default function ResumeCard({resume}: {resume: Resume}) {
 
         <div className='resume-card-header'>
             <div className="flex flex-col gap-2">
-                {resume.companyName && <h2 className="!test-black font-bold break-words">
+                {resume.companyName && <h2 className="!test-black font-bold wrap-break-word">
                     {resume.companyName}
                 </h2>}
                 {resume.jobTitle && <h3 className="text-lg break-wrods text-gray-500">
@@ -32,7 +32,7 @@ export default function ResumeCard({resume}: {resume: Resume}) {
                 {!resume.companyName && !resume.jobTitle && <h2 className='text-black font-bold'>Resume</h2>}
             </div>
 
-            <div className='flex-shrink-0'>
+            <div className='shrink-0'>
                 <ScoreCircle score={resume.feedback.overallScore} />
             </div>
 
@@ -43,7 +43,7 @@ export default function ResumeCard({resume}: {resume: Resume}) {
                 <img 
                     src={resumeURL}
                     alt="resume"
-                    className='w-full h-[350px] max-sm:h-[200px] object-cover object-top'
+                    className='w-full h-87.5 max-sm:h-50 object-cover object-top'
                 />
                 </div>
             </div>
