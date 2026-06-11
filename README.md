@@ -1,4 +1,7 @@
-An AI-powered Resume Analyzer built with **React**, **TypeScript**, **React Router v7**, and **Puter.js**. The application helps users analyze their resumes against job descriptions using AI-generated insights, ATS scoring, and personalized feedback to improve their chances of landing interviews.
+An AI-powered Resume Analyzer built with **React, TypeScript, React Router v7, and Puter.js**. The application helps users analyze their resumes against job descriptions using AI-generated insights, ATS scoring, and personalized feedback to improve their chances of landing interviews.
+
+This project uses **Puter.js**, eliminating the need for a custom backend or database. Authentication, AI services, and cloud storage are handled by Puter, with each user having their own private storage space for resumes and analysis data.
+
 
 ## 🌐 Live Demo
 
