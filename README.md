@@ -2,7 +2,6 @@ An AI-powered Resume Analyzer built with **React, TypeScript, React Router v7, a
 
 This project uses **Puter.js**, eliminating the need for a custom backend or database. Authentication, AI services, and cloud storage are handled by Puter, with each user having their own private storage space for resumes and analysis data.
 
-
 ## 🌐 Live Demo
 
 🔗 **Website:** https://ai-resume-analyzer-pf1t.onrender.com
@@ -36,12 +35,6 @@ This project uses **Puter.js**, eliminating the need for a custom backend or dat
   * File System (FS)
   * Key-Value Store (KV)
   * AI APIs
-
-### Development Tools
-
-* Vite
-* ESLint
-* Prettier
 
 ## 🚀 Getting Started
 
@@ -89,12 +82,6 @@ http://localhost:5173
 This project was built by following and learning from the excellent tutorial by **JavaScript Mastery**:
 
 🎥 https://www.youtube.com/watch?v=iYOz165wGkQ&t=8874s
-
-## 📄 License
-
-This project is intended for educational and portfolio purposes.
-
-Feel free to fork the repository and enhance it further!
 
 ## 👨‍💻 Author
 
